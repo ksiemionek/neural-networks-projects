@@ -26,10 +26,10 @@ A collection of 6 neural networks projects completed as part of coursework.
 **Task:** Predict whether an apartment falls into the cheap (< 100 000$), average (100 000 - 350 000$) or expensive (> 350 000$) price category based on its attributes.
 
 **Dataset features:**
-- Building properties - year built, sise in sqf, floor, hallway type, heating type, management type
+- Building properties - year built, size in sqf, floor, hallway type, heating type, management type
 - Parkings - number of ground and basement parking lots
 - Public transport accessibility - time to bus stop, time to subway, nearest subway station
-- Amenities and surroundings - number of elevators, managers, facilities inside/nerby, nerby school
+- Amenities and surroundings - number of elevators, managers, facilities inside/nearby, nearby school
 
 **Architecture (MLP):**
 - 33 inputs (after One-Hot Encoding)
