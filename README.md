@@ -41,6 +41,24 @@ A collection of 6 neural networks projects completed as part of coursework.
  
 ## Project 3
 
+**Task:** Classify images into one of 50 categories using a custom CNN architecture trained from scratch.
+
+**Dataset:**
+- ~90 000 labeled training images (64x64 RGB)
+- 50 balanced classes
+
+**Architecture (CNN):**
+- 4 convolutional blocks (32 → 64 → 128 → 256 channels), each with 2x Conv2d + BatchNorm + GELU + MaxPool
+- AdaptiveAvgPool (1x1)
+- Dropout (0.5) + Linear classifier
+
+**Training details:**
+- AdamW optimizer with cosine annealing LR scheduler
+- Data augmentation: random flip, crop, rotation, erasing
+- Early stopping on validation loss
+
+**Result: ~73% mean per-class accuracy**
+
 ---
  
 ## Project 4
