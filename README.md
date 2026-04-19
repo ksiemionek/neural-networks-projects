@@ -21,7 +21,7 @@ A collection of 6 neural networks projects completed as part of coursework.
 
 ---
 
-## Project 2
+## Project 2: Apartment Price Category Classification
 
 **Task:** Predict whether an apartment falls into the cheap (< 100 000$), average (100 000 - 350 000$) or expensive (> 350 000$) price category based on its attributes.
 
@@ -39,7 +39,7 @@ A collection of 6 neural networks projects completed as part of coursework.
 
 ---
  
-## Project 3
+## Project 3: Image Classification
 
 **Task:** Classify images into one of 50 categories using a custom CNN architecture trained from scratch.
 
